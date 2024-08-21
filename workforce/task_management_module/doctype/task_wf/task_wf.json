@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: Task-{#####}",
+ "creation": "2024-08-21 17:21:53.028773",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "assignee",
+  "description",
+  "due_date",
+  "priority",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "assignee",
+   "fieldtype": "Link",
+   "label": "Assignee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "default": "Low",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "default": "To Do",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "To Do\nIn Progress\nPending Review\nBlocked\nCompleted\nOn Hold\nCancelled\nFailed\nDeferred"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-21 18:05:15.656629",
+ "modified_by": "Administrator",
+ "module": "Task Management Module",
+ "name": "Task-wf",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

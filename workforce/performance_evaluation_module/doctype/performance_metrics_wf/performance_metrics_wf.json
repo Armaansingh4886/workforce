@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PM-{#####}",
+ "creation": "2024-08-21 18:15:11.908170",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_vicr",
+  "employee_id",
+  "task_completion_rate",
+  "productivity_score",
+  "quality_of_work"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_vicr",
+   "fieldtype": "Column Break",
+   "options": "Poor\nFair\nGood\nExcellent"
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Link",
+   "label": "Employee ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "task_completion_rate",
+   "fieldtype": "Float",
+   "label": "Task Completion Rate"
+  },
+  {
+   "fieldname": "productivity_score",
+   "fieldtype": "Float",
+   "label": "Productivity Score"
+  },
+  {
+   "fieldname": "quality_of_work",
+   "fieldtype": "Select",
+   "label": "Quality of Work"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-21 18:27:06.454397",
+ "modified_by": "Administrator",
+ "module": "Performance Evaluation Module",
+ "name": "Performance Metrics_wf",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
