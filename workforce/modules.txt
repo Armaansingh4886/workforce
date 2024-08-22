@@ -1,1 +1,5 @@
 workforce
+Task Management Module
+Communication Tools Module
+Time Tracking Module
+Performance Evaluation Module
