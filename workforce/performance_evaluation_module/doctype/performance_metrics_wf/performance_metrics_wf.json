@@ -22,7 +22,7 @@
    "fieldname": "employee_id",
    "fieldtype": "Link",
    "label": "Employee ID",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "task_completion_rate",
@@ -42,7 +42,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:27:06.454397",
+ "modified": "2024-08-22 12:44:49.737828",
  "modified_by": "Administrator",
  "module": "Performance Evaluation Module",
  "name": "Performance Metrics_wf",

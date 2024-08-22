@@ -17,13 +17,13 @@
    "fieldname": "sender",
    "fieldtype": "Link",
    "label": "Sender",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "recipient",
    "fieldtype": "Link",
    "label": "Recipient",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "subject",
@@ -43,7 +43,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:08:04.864741",
+ "modified": "2024-08-22 12:47:30.053967",
  "modified_by": "Administrator",
  "module": "Communication Tools Module",
  "name": "Message-wf",
