@@ -17,7 +17,7 @@
    "fieldname": "employee_id",
    "fieldtype": "Link",
    "label": "Employee ID",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "task_id",
@@ -43,7 +43,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:07:27.526262",
+ "modified": "2024-08-22 12:46:52.498575",
  "modified_by": "Administrator",
  "module": "Time Tracking Module",
  "name": "Time Log-wf",

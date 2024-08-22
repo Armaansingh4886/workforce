@@ -17,7 +17,7 @@
    "fieldname": "assignee",
    "fieldtype": "Link",
    "label": "Assignee",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "description",
@@ -46,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:05:15.656629",
+ "modified": "2024-08-22 12:44:14.492186",
  "modified_by": "Administrator",
  "module": "Task Management Module",
  "name": "Task-wf",
