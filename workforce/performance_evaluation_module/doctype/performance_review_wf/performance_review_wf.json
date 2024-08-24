@@ -17,13 +17,14 @@
    "fieldname": "employee_id",
    "fieldtype": "Link",
    "label": "Employee ID",
-   "options": "Employee"
+   "options": "User"
+   "options": "User"
   },
   {
    "fieldname": "reviewer",
    "fieldtype": "Link",
    "label": "Reviewer",
-   "options": "Employee"
+   "options": "User"
   },
   {
    "fieldname": "date",
@@ -43,7 +44,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:23:16.119381",
+ "modified": "2024-08-23 15:06:38.771749",
  "modified_by": "Administrator",
  "module": "Performance Evaluation Module",
  "name": "Performance Review_wf",

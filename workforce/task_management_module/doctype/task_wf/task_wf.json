@@ -6,7 +6,10 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "task_section",
   "assignee",
+  "assigned_to",
+  "task_name",
   "description",
   "due_date",
   "priority",
@@ -17,7 +20,12 @@
    "fieldname": "assignee",
    "fieldtype": "Link",
    "label": "Assignee",
-   "options": "Employee"
+<<<<<<< HEAD
+   "options": "User",
+   "read_only": 1
+=======
+   "options": "User"
+>>>>>>> 6baeee7d9744193a685cff2f666be8a9cfb4465e
   },
   {
    "fieldname": "description",
@@ -42,11 +50,32 @@
    "fieldtype": "Select",
    "label": "Status",
    "options": "To Do\nIn Progress\nPending Review\nBlocked\nCompleted\nOn Hold\nCancelled\nFailed\nDeferred"
+  },
+  {
+   "fieldname": "task_name",
+   "fieldtype": "Data",
+   "label": "Task name"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "link_filters": "[]",
+   "options": "User"
+  },
+  {
+   "fieldname": "task_section",
+   "fieldtype": "Section Break",
+   "label": "Task"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 18:05:15.656629",
+<<<<<<< HEAD
+ "modified": "2024-08-23 15:18:16.672213",
+=======
+ "modified": "2024-08-22 12:44:14.492186",
+>>>>>>> 6baeee7d9744193a685cff2f666be8a9cfb4465e
  "modified_by": "Administrator",
  "module": "Task Management Module",
  "name": "Task-wf",

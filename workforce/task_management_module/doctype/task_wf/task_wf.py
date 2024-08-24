@@ -3,7 +3,12 @@
 
 # import frappe
 from frappe.model.document import Document
-
+import frappe
+from frappe.utils import today
 
 class Taskwf(Document):
-	pass
+    def validate(self):
+        
+        if self.due_date and self.due_date < today():
+            frappe.throw("Due Date cannot be in the past.")
+

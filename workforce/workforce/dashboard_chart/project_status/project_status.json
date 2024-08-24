@@ -1,0 +1,45 @@
+{
+ "chart_name": "Project status",
+ "chart_type": "Report",
+ "creation": "2024-08-23 16:27:33.609197",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 7,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-08-24 08:27:15.853299",
+ "modified_by": "Administrator",
+ "module": "workforce",
+ "name": "Project status",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Project report",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "project_name",
+ "y_axis": [
+  {
+   "color": "#449CF0",
+   "y_field": "total_tasks"
+  },
+  {
+   "color": "#29CD42",
+   "y_field": "completed_tasks"
+  },
+  {
+   "color": "#ECAD4B",
+   "y_field": "to_do_tasks"
+  },
+  {
+   "color": "#CB2929",
+   "y_field": "in_progress_tasks"
+  }
+ ]
+}

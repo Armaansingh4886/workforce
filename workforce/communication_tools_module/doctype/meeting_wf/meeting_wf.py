@@ -1,9 +1,19 @@
-# Copyright (c) 2024, armaan,harshit and naman and contributors
-# For license information, please see license.txt
-
-# import frappe
 from frappe.model.document import Document
-
+import frappe
+from frappe.utils import nowdate
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+import json
 
 class Meetingwf(Document):
-	pass
+    def validate(self):
+        if self.date and self.date < nowdate():
+            frappe.throw("Meeting Date cannot be in the past. Please select today's date or a future date.")
+        
+
+
+
+
+
+    

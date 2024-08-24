@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestTimeLogwf(FrappeTestCase):
+class TestTimesheet(FrappeTestCase):
 	pass

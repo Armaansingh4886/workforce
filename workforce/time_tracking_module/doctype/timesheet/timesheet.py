@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class TimeLogwf(Document):
+class Timesheet(Document):
 	pass
