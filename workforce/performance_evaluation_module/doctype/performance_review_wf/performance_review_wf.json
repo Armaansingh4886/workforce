@@ -18,7 +18,6 @@
    "fieldtype": "Link",
    "label": "Employee ID",
    "options": "User"
-   "options": "User"
   },
   {
    "fieldname": "reviewer",
