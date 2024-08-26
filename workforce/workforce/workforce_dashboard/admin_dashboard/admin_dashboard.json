@@ -8,6 +8,12 @@
   },
   {
    "card": "pending project"
+  },
+  {
+   "card": "Total number of employees"
+  },
+  {
+   "card": "manager count"
   }
  ],
  "charts": [
@@ -27,7 +33,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2024-08-26 12:52:47.191462",
+ "modified": "2024-08-26 15:08:50.576641",
  "modified_by": "Administrator",
  "module": "workforce",
  "name": "Admin Dashboard",

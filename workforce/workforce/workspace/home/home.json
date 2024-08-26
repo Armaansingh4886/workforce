@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Y0_BRREH2U\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Task\",\"col\":4}},{\"id\":\"2ER1tv84eP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Task\",\"col\":4}},{\"id\":\"C7PQpRZg3I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Task\",\"col\":4}}]",
+ "content": "[{\"id\":\"Y0_BRREH2U\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Task\",\"col\":4}},{\"id\":\"2ER1tv84eP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Task\",\"col\":4}},{\"id\":\"C7PQpRZg3I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Task\",\"col\":4}},{\"id\":\"2FqqeQllIB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Hours Worked\",\"col\":4}},{\"id\":\"HDZGc3r1X_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Average Hours Worked\",\"col\":4}}]",
  "creation": "2024-08-26 10:59:41.106166",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Home",
  "links": [],
- "modified": "2024-08-26 11:42:39.857250",
+ "modified": "2024-08-26 13:00:30.974376",
  "modified_by": "Administrator",
  "module": "workforce",
  "name": "Home",
@@ -23,8 +23,16 @@
    "number_card_name": "Task"
   },
   {
+   "label": "Total Hours Worked",
+   "number_card_name": "Total Time"
+  },
+  {
    "label": "Pending Task",
    "number_card_name": "Pending Task"
+  },
+  {
+   "label": "Average Hours Worked",
+   "number_card_name": "Average TIme"
   },
   {
    "label": "Completed Task",

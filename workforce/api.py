@@ -20,7 +20,7 @@ def get_total_hours_worked():
     
     # Return the total hours, defaulting to 0 if no entries found
     print(total_hours)
-    return total_hours/100+total_hours%100
+    return total_hours/100+total_hours%100 or 0
 
 
 
@@ -44,4 +44,25 @@ def get_average_hours_worked():
     
     # Return the total hours, defaulting to 0 if no entries found
     print(total_hours)
-    return (total_hours/100+total_hours%100)/count
+    return (total_hours/100+total_hours%100)/count or 0
+
+
+
+
+@frappe.whitelist()
+def get_employee_count_for_role():
+    # Role Profile ke andar se user count nikalna
+    user_list = frappe.get_list('User Role Profile', 
+        filters={'role_profile_name': "Employee"},
+        fields=['name']
+    )
+    
+    # Employee count return karna
+    return len(user_list)
+
+
+
+# SELECT role_profile, COUNT(*) as count
+# FROM `tabUser Role Profile`
+# WHERE role_profile = 'Employee'
+# GROUP BY role_profile;

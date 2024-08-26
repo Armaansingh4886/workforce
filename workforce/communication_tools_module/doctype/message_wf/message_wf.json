@@ -17,7 +17,8 @@
    "fieldname": "sender",
    "fieldtype": "Link",
    "label": "Sender",
-   "options": "User"
+   "options": "User",
+   "read_only": 1
   },
   {
    "fieldname": "recipient",
@@ -36,14 +37,16 @@
    "label": "Body"
   },
   {
+   "default": "now",
    "fieldname": "timestamp",
    "fieldtype": "Datetime",
-   "label": "Timestamp"
+   "label": "Timestamp",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-22 12:47:30.053967",
+ "modified": "2024-08-26 14:30:52.883785",
  "modified_by": "Administrator",
  "module": "Communication Tools Module",
  "name": "Message-wf",
