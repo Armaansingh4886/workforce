@@ -6,8 +6,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "employee_id",
   "reviewer",
+  "employee_id",
   "date",
   "performance_rating",
   "feedback"
@@ -17,23 +17,28 @@
    "fieldname": "employee_id",
    "fieldtype": "Link",
    "label": "Employee ID",
+   "link_filters": "[[\"User\",\"role_profile_name\",\"=\",\"Employee\"]]",
    "options": "User"
   },
   {
    "fieldname": "reviewer",
    "fieldtype": "Link",
    "label": "Reviewer",
-   "options": "User"
+   "options": "User",
+   "read_only": 1
   },
   {
+   "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "Date",
+   "read_only": 1
   },
   {
    "fieldname": "performance_rating",
    "fieldtype": "Select",
-   "label": "Performance Rating"
+   "label": "Performance Rating",
+   "options": "1\n2\n3"
   },
   {
    "fieldname": "feedback",
@@ -43,7 +48,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-23 15:06:38.771749",
+ "modified": "2024-08-26 17:45:49.562409",
  "modified_by": "Administrator",
  "module": "Performance Evaluation Module",
  "name": "Performance Review_wf",

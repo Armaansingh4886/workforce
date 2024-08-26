@@ -1,0 +1,37 @@
+{
+ "chart_name": "performance",
+ "chart_type": "Report",
+ "creation": "2024-08-26 17:50:54.580334",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-08-26 17:50:54.580334",
+ "modified_by": "Administrator",
+ "module": "workforce",
+ "name": "performance",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Performance Review Report",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Line",
+ "use_report_chart": 0,
+ "x_field": "employee_id",
+ "y_axis": [
+  {
+   "color": "#CB2929",
+   "y_field": "task_completion_rate"
+  },
+  {
+   "color": "#29CD42",
+   "y_field": "productivity_score"
+  }
+ ]
+}

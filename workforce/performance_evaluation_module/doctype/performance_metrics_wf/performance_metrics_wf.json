@@ -1,69 +1,70 @@
 {
-    "actions": [],
-    "allow_rename": 1,
-    "autoname": "format:Log-{#####}",
-    "creation": "2024-08-21 17:47:26.073097",
-    "doctype": "DocType",
-    "engine": "InnoDB",
-    "field_order": [
-     "employee_id",
-     "task_id",
-     "start_time",
-     "end_time",
-     "duration"
-    ],
-    "fields": [
-     {
-      "fieldname": "employee_id",
-      "fieldtype": "Link",
-      "label": "Employee ID",
-      "options": "User"
-     },
-     {
-      "fieldname": "task_id",
-      "fieldtype": "Link",
-      "label": "Task ID",
-      "options": "Task-wf"
-     },
-     {
-      "fieldname": "start_time",
-      "fieldtype": "Datetime",
-      "label": "Start Time"
-     },
-     {
-      "fieldname": "end_time",
-      "fieldtype": "Datetime",
-      "label": "End Time"
-     },
-     {
-      "fieldname": "duration",
-      "fieldtype": "Float",
-      "label": "Duration"
-     }
-    ],
-    "index_web_pages_for_search": 1,
-    "links": [],
-    "modified": "2024-08-22 12:46:52.498575",
-    "modified_by": "Administrator",
-    "module": "Time Tracking Module",
-    "name": "Time Log-wf",
-    "naming_rule": "Expression",
-    "owner": "Administrator",
-    "permissions": [
-     {
-      "create": 1,
-      "delete": 1,
-      "email": 1,
-      "export": 1,
-      "print": 1,
-      "read": 1,
-      "report": 1,
-      "role": "System Manager",
-      "share": 1,
-      "write": 1
-     }
-    ],
-    "sort_field": "modified",
-    "sort_order": "DESC",
-    "states": []
-   }
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PM-{#####}",
+ "creation": "2024-08-21 18:15:11.908170",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_vicr",
+  "employee_id",
+  "task_completion_rate",
+  "productivity_score",
+  "quality_of_work"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Link",
+   "label": "Employee ID",
+   "link_filters": "[[\"User\",\"role\",\"=\",\"Employee\"]]",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_vicr",
+   "fieldtype": "Column Break",
+   "options": "Poor\nFair\nGood\nExcellent"
+  },
+  {
+   "fieldname": "task_completion_rate",
+   "fieldtype": "Float",
+   "label": "Task Completion Rate"
+  },
+  {
+   "fieldname": "productivity_score",
+   "fieldtype": "Float",
+   "label": "Productivity Score"
+  },
+  {
+   "fieldname": "quality_of_work",
+   "fieldtype": "Select",
+   "label": "Quality of Work",
+   "options": "below expectation\nmeeting expectation\nabove expectation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-26 17:43:21.179423",
+ "modified_by": "Administrator",
+ "module": "Performance Evaluation Module",
+ "name": "Performance Metrics_wf",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

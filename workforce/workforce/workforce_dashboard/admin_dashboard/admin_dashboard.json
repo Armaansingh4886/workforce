@@ -24,6 +24,10 @@
   {
    "chart": "manager projects charts",
    "width": "Half"
+  },
+  {
+   "chart": "performance",
+   "width": "Half"
   }
  ],
  "creation": "2024-08-24 08:27:21.410185",
@@ -33,7 +37,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2024-08-26 15:08:50.576641",
+ "modified": "2024-08-26 17:50:57.434652",
  "modified_by": "Administrator",
  "module": "workforce",
  "name": "Admin Dashboard",
