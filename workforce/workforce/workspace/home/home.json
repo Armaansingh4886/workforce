@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Y0_BRREH2U\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Task\",\"col\":4}},{\"id\":\"2ER1tv84eP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Task\",\"col\":4}},{\"id\":\"C7PQpRZg3I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Task\",\"col\":4}},{\"id\":\"2FqqeQllIB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Hours Worked\",\"col\":4}},{\"id\":\"HDZGc3r1X_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Average Hours Worked\",\"col\":4}}]",
+ "content": "[{\"id\":\"Y0_BRREH2U\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Task\",\"col\":4}},{\"id\":\"2ER1tv84eP\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Task\",\"col\":4}},{\"id\":\"C7PQpRZg3I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Task\",\"col\":4}},{\"id\":\"2FqqeQllIB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Hours Worked\",\"col\":4}},{\"id\":\"HDZGc3r1X_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Average Hours Worked\",\"col\":4}},{\"id\":\"p-u9-VYmmw\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7WiZFtW_Co\",\"type\":\"card\",\"data\":{\"card_name\":\"Documents\",\"col\":4}},{\"id\":\"FTt9kA1RaE\",\"type\":\"card\",\"data\":{\"card_name\":\"Communication\",\"col\":4}},{\"id\":\"SWAlqrd1VQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2024-08-26 10:59:41.106166",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,89 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Home",
- "links": [],
- "modified": "2024-08-26 13:00:30.974376",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Documents",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tasks",
+   "link_count": 0,
+   "link_to": "Task-wf",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Timesheet",
+   "link_count": 0,
+   "link_to": "Timesheet",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Communication",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meetings",
+   "link_count": 0,
+   "link_to": "event",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Event",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Messages",
+   "link_count": 0,
+   "link_to": "messages",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Message-wf",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Time",
+   "link_count": 0,
+   "link_to": "Time Tracking Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Timesheet",
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-08-26 18:01:10.623042",
  "modified_by": "Administrator",
  "module": "workforce",
  "name": "Home",
