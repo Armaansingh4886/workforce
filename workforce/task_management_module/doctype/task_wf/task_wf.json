@@ -20,12 +20,8 @@
    "fieldname": "assignee",
    "fieldtype": "Link",
    "label": "Assignee",
-<<<<<<< HEAD
    "options": "User",
    "read_only": 1
-=======
-   "options": "User"
->>>>>>> 6baeee7d9744193a685cff2f666be8a9cfb4465e
   },
   {
    "fieldname": "description",
@@ -71,11 +67,8 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2024-08-23 15:18:16.672213",
-=======
  "modified": "2024-08-22 12:44:14.492186",
->>>>>>> 6baeee7d9744193a685cff2f666be8a9cfb4465e
  "modified_by": "Administrator",
  "module": "Task Management Module",
  "name": "Task-wf",

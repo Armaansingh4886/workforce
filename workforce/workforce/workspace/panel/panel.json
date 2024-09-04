@@ -1,0 +1,236 @@
+{
+ "charts": [
+  {
+   "chart_name": "Project status",
+   "label": "Projects"
+  },
+  {
+   "chart_name": "Time Chart",
+   "label": "Time "
+  }
+ ],
+ "content": "[{\"id\":\"no_a76ZiIO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Projects\",\"col\":4}},{\"id\":\"oEmiHP_Xlr\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Tasks\",\"col\":4}},{\"id\":\"V7B0wSHCSC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Task\",\"col\":4}},{\"id\":\"1FmyL0a248\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Hours Worked\",\"col\":4}},{\"id\":\"d-mOQCtrrh\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Average Hours Worked\",\"col\":4}},{\"id\":\"v74Y7aNwBr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Projects\",\"col\":12}},{\"id\":\"pqy5PzYLnF\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Time \",\"col\":12}},{\"id\":\"op0vEXOaAl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"w2b88A-Yck\",\"type\":\"card\",\"data\":{\"card_name\":\"Projects\",\"col\":4}},{\"id\":\"9mEUT6mGov\",\"type\":\"card\",\"data\":{\"card_name\":\"Communication\",\"col\":4}}]",
+ "creation": "2024-08-26 11:38:25.627557",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard",
+ "idx": 1,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Panel",
+ "links": [
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Website Settings",
+   "link_count": 0,
+   "link_to": "Website Settings",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Website Theme",
+   "link_count": 0,
+   "link_to": "Website Theme",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Website Script",
+   "link_count": 0,
+   "link_to": "Website Script",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "About Us Settings",
+   "link_count": 0,
+   "link_to": "About Us Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contact Us Settings",
+   "link_count": 0,
+   "link_to": "Contact Us Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog Post",
+   "link_count": 0,
+   "link_to": "Blog Post",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blogger",
+   "link_count": 0,
+   "link_to": "Blogger",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Blog Category",
+   "link_count": 0,
+   "link_to": "Blog Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Help Category",
+   "link_count": 0,
+   "link_to": "Help Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Help Article",
+   "link_count": 0,
+   "link_to": "Help Article",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 0,
+   "link_to": "Project-wf",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project report",
+   "link_count": 0,
+   "link_to": "Project report",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Project-wf",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Communication",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Messages",
+   "link_count": 0,
+   "link_to": "messages",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Message-wf",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meetings",
+   "link_count": 0,
+   "link_to": "event",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Event",
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-09-04 11:28:26.604417",
+ "modified_by": "Administrator",
+ "module": "workforce",
+ "name": "Panel",
+ "number_cards": [
+  {
+   "label": "Total Projects",
+   "number_card_name": "Total project"
+  },
+  {
+   "label": "Total Hours Worked",
+   "number_card_name": "Total Time"
+  },
+  {
+   "label": "Pending Tasks",
+   "number_card_name": "Pending Task of project"
+  },
+  {
+   "label": "Average Hours Worked",
+   "number_card_name": "Average TIme"
+  },
+  {
+   "label": "Completed Task",
+   "number_card_name": "Task completed of project"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Manager"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Panel"
+}

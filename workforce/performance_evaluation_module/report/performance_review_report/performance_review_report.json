@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-08-23 15:14:06.954304",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-09-04 11:31:49.810433",
+ "modified_by": "Administrator",
+ "module": "Performance Evaluation Module",
+ "name": "Performance Review Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n    pr.`employee_id` AS \"Employee ID\",\n    pr.`reviewer` AS \"Reviewer\",\n    pr.`date` AS \"Review Date\",\n    pr.`performance_rating` AS \"Performance Rating\",\n    pr.`feedback` AS \"Feedback\",\n    pm.`task_completion_rate` AS \"Task Completion Rate\",\n    pm.`productivity_score` AS \"Productivity Score\",\n    pm.`quality_of_work` AS \"Quality of Work\"\nFROM\n    `tabPerformance Review_wf` pr\n    LEFT JOIN `tabPerformance Metrics_wf` pm\n    ON pr.`employee_id` = pm.`employee_id`\nORDER BY\n    pr.`date` DESC, pr.`employee_id`;\n",
+ "ref_doctype": "Performance Metrics_wf",
+ "report_name": "Performance Review Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

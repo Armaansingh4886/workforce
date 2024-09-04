@@ -1,0 +1,38 @@
+{
+ "cards": [
+  {
+   "card": "Total project"
+  },
+  {
+   "card": "Task completed of project"
+  },
+  {
+   "card": "Pending Task of project"
+  },
+  {
+   "card": "Total Time"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Projects status",
+   "width": "Half"
+  },
+  {
+   "chart": "Time Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-08-23 16:09:10.445357",
+ "dashboard_name": "Manager Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-09-04 11:32:01.254283",
+ "modified_by": "Administrator",
+ "module": "workforce",
+ "name": "Manager Dashboard",
+ "owner": "Administrator"
+}

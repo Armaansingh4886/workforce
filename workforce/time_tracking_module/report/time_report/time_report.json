@@ -1,44 +1,25 @@
 {
- "add_total_row": 1,
- "columns": [
-  {
-   "fieldname": "employee",
-   "fieldtype": "Link",
-   "label": "Employee",
-   "options": "User",
-   "width": 0
-  },
-  {
-   "fieldname": "duration",
-   "fieldtype": "Time",
-   "label": "Duration",
-   "width": 0
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "date",
-   "width": 0
-  }
- ],
- "creation": "2024-08-23 15:41:01.610291",
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-08-23 15:54:46.765114",
  "disabled": 0,
  "docstatus": 0,
  "doctype": "Report",
  "filters": [],
- "idx": 0,
+ "idx": 3,
  "is_standard": "Yes",
- "json": "{}",
  "letterhead": null,
- "modified": "2024-08-23 15:41:51.997827",
+ "modified": "2024-09-04 11:31:39.585733",
  "modified_by": "Administrator",
  "module": "Time Tracking Module",
- "name": "time report",
+ "name": "Time report",
  "owner": "Administrator",
  "prepared_report": 0,
+ "query": "SELECT\n    t.employee AS \"Employee\",\n    CONCAT(YEAR(t.date), '-', LPAD(MONTH(t.date), 2, '0')) AS \"Month\",\n    SUM(tl.duration) AS \"Total Duration\"\nFROM\n    `tabTimesheet` t\nLEFT JOIN\n    `tabTimeLog` tl ON tl.parent = t.name\nGROUP BY\n    t.employee,\n    YEAR(t.date),\n    MONTH(t.date)\nORDER BY\n    t.employee,\n    YEAR(t.date),\n    MONTH(t.date);\n",
  "ref_doctype": "Timesheet",
- "report_name": "time report",
- "report_type": "Report Builder",
+ "report_name": "Time report",
+ "report_script": "",
+ "report_type": "Query Report",
  "roles": [
   {
    "role": "System Manager"
